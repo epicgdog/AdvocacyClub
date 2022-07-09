@@ -1,9 +1,15 @@
 h1{
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     text-align:center; 
+    font-size: 3em; 
+}
+
+div.container{
+    margin: 0 10%;  
+    background-color: rgb(245, 245, 245); 
 }
 
 p{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-    text-decoration: wavy;
+
 }
