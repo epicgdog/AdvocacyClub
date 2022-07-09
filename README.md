@@ -1,4 +1,4 @@
-# AdvocacyClub
+# Advocacy Club
 
 this is the repo for the website of AdvocacyClub. 
 
