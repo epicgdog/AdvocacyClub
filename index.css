@@ -1,5 +1,38 @@
 @import url("https://fonts.googleapis.com/css?family=Carter One");
 
+:root{
+    --image-size: 450px; 
+}
+
+video{
+    width: 100%; 
+    display: block; 
+    margin: auto; 
+}
+
+.note{
+    display: inline-block; 
+}
+
+.frontcover{
+    height: calc(var(--image-size)/0.1vh);
+    background-image: url("MLK_Ihave.jpeg"); 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center; 
+}
+
+.title{
+    display: inline-block;
+}
+
+@media screen and (min-width: 840px) {
+    video{
+        width: 640px; 
+    }
+}
+
+/*
 h1{
     font-family: "Carter One", 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
     text-align:center; 
@@ -8,7 +41,7 @@ h1{
 }
 
 .navbar{
-    background-color: black; 
+    font-family: "Carter One";  
 }
 
 div.container{
@@ -34,3 +67,4 @@ p.note{
     background-color:rgba(255, 230, 0, 0.24);
     display: inline-block; 
 }
+*/

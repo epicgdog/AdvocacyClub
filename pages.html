@@ -8,41 +8,64 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary sticky-top md-5">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="index.html">Advocacy Club</a>
-              
-              <!-- this button is actually needed for responsive reasons -->
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                  <li class="nav-item">
-                    <a class="nav-link" href="pages.html">Works</a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-        </nav>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top md-5 shadow-sm">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Advocacy Club</a>
+          
+          <!-- this button is actually needed for responsive reasons -->
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="pages.html">Docs</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
 
-        <h1> Pieces </h1>
+        <h1 class="p-2 text-center" id="top"> Docs </h1>
+        <p class="lead p-2 text-center"> Here are the articles club members have made. </p>
 
         <!-- this is where we could dynamically update the pieces so we don't have to manually add every single time-->
+        <!-- that also means we need a database and a server-side thing-->
+        <!-- options: ruby on rails(ruby)  nextjs(js) or django (python)-->
+        <div class="docs container rounded bg-light mx-auto p-2 md-6">
+          <p class="note p-2 text-danger bg-danger bg-opacity-10"> NOTE: This is an example. </p>
+          <h3> Pencils. </h3>
+          <span class="author display-6 fs-6 fst-italic">By: theepicgdog | </span>
+          <a class="text-decoration-none display-6 fs-6 fst-italic" href="#">Twitter</a>
+          <a class="text-decoration-none display-6 fs-6 fst-italic" href="#" style="color: rgb(255, 25, 255)">Instagram</a>
+          <hr>
+          <p> 
+              Pencils are a staple in school. From tests to art projects, they are used in a variety of ways. 
+              There is also a variety of types of pencils, ranging from cheap, wooden <i> Ticonderogas</i> to more 
+              expensive mechanical pencils from <i> Pentel</i>. However, are these mechanical pencils really worth
+              the price?
+          </p>
 
-        <div class="container">
-            <h3> My life as a gamer </h3>
-            <div class="author"> 
-                <p> By: theepicgdog</p>
-                <button> Instagram </button>
-                <button> Youtube </button>
-                <button> Twitter </button>
-            </div>
+          <p>
+              First of, we'll take a look at the cheap, wooden <i> Ticonderogas</i> that I mentioned earlier. 
+              These pencils are necessary for taking Scantron, AP, SAT, or pretty much any standardized tests. These tests
+              are necessary for passing classes, gaining college credit, and even getting into that dream college you want to go to.
+              Another advantage these pencils carry is their price. <i>Ticonderogas </i> come in packs that cost around $3 for a pack of 12. That means
+              each pencil only costs $0.25 but there are even cheaper options than this. Because their price is so affordable, people are able to buy multiple packs, 
+              meaning pencils that get lost aren't a big deal, unlike losing a mechanical pencil. Though prices are cheap and these pencils are used in important tests, 
+              <i> Ticonderogas </i> still have drawbacks. For example, let's say you have run out of eraser at the end of a pencil. 
+              This means you either have to a) get a new pencil b) buy an eraser top or c) remove the metal protector to reveal even more eraser. 
+              All of these solutions uses resources one might now have. Moreover, you continue to damage the environment by buying more and more of
+              these pencils. <i> Ticonderogas </i> are made with wood, and wood comes from trees. Trees are necessary for the planet to digest excess CO2 and fart out O2.
+              Without trees, it would be impossible for us to live. By buying more and more of these pencils, trees are being chopped down and leaving more CO2 in the air than normal. 
+              Thus, the greenhouse effect occurs, warming the planet. This dramatic warming has caused numerous, dangerous wildfires here in California, as well as 
+              torrential rains that flood cities in Asia.
+          </p>
 
-            <hr>
+        </div>
 
-            <p> I wake up. I game until I get on the leaderboard like here. The End.  </p>
-            <img src="first_leaderboard.png" width="50%">
+        <div class="container-fluid bg-dark p-4 text-center">
+          <a class="text-white" href="#top"> back to the top </a>
         </div>
     </body>
 </html>
